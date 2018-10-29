@@ -1,0 +1,17 @@
+<project
+  name="Sample usage of Salesforce Ant tasks"
+  default="helloWorld"
+  basedir="."
+  xmlns:sf="antlib:com.salesforce"
+>
+  <property file="build.properties"/>
+
+  <target name="helloWorld">
+    <echo message="Hello World Salesforce Ant"/>
+    <sf:describeMetadata
+      sessionId="${sf.username}"
+      password="${sf.password}"
+      serverurl="${sf.serverurl}"
+    />
+  </target>
+</project>
