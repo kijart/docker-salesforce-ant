@@ -7,7 +7,7 @@ ENV ANT_VERSION 1.10.5
 ENV ANT_HOME /opt/ant
 
 # Salesforce Ant migration tool
-ENV SF_ANT_VERSION 37.0
+ENV SF_ANT_VERSION 38.0
 
 # Apache Ant installation
 RUN cd /tmp \
