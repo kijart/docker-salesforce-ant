@@ -9,7 +9,7 @@
   <target name="helloWorld">
     <echo message="Hello World Salesforce Ant"/>
     <sf:describeMetadata
-      sessionId="${sf.username}"
+      username="${sf.username}"
       password="${sf.password}"
       serverurl="${sf.serverurl}"
     />
