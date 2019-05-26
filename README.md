@@ -4,7 +4,6 @@ Run **Salesforce Ant migration tool** inside docker.
 
 More info in [Salesforce Ant Migration Tool](https://developer.salesforce.com/docs/atlas.en-us.daas.meta/daas/forcemigrationtool_install.htm).
 
-
 ## Docker setup
 
 Install docker: https://docs.docker.com/engine/installation/
@@ -25,7 +24,7 @@ Docker documentation: https://docs.docker.com/
 
 - pull latest Salesforce Ant docker image version from docker hub: `docker pull kijart/salesforce-ant`
 
-- pull a Salesforce Ant specific version (v44.0) docker image from docker hub: `docker pull kijart/salesforce-ant:44.0`
+- pull a Salesforce Ant specific version (v45.0) docker image from docker hub: `docker pull kijart/salesforce-ant:45.0`
 
 - create a Salesforce Ant docker container
 
@@ -33,7 +32,7 @@ Docker documentation: https://docs.docker.com/
 docker create \
   --name=salesforce-ant \
   -v $(pwd)/config:/salesforce \
-  kijart/salesforce-ant:44.0
+  kijart/salesforce-ant:45.0
 ```
 
 ### build.xml and build.properties
