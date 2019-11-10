@@ -24,7 +24,7 @@ Docker documentation: https://docs.docker.com/
 
 - pull latest Salesforce Ant docker image version from docker hub: `docker pull kijart/salesforce-ant`
 
-- pull a Salesforce Ant specific version (v45.0) docker image from docker hub: `docker pull kijart/salesforce-ant:45.0`
+- pull a Salesforce Ant specific version (v46.0) docker image from docker hub: `docker pull kijart/salesforce-ant:46.0`
 
 - create a Salesforce Ant docker container
 
@@ -32,7 +32,7 @@ Docker documentation: https://docs.docker.com/
 docker create \
   --name=salesforce-ant \
   -v $(pwd)/config:/salesforce \
-  kijart/salesforce-ant:45.0
+  kijart/salesforce-ant:46.0
 ```
 
 ### build.xml and build.properties

@@ -3,11 +3,11 @@ FROM openjdk:13-alpine
 LABEL maintainer="Luis Miguel Vicente Fuentes <kijart@gmail.com>"
 
 # Apache Ant
-ENV ANT_VERSION 1.10.6
+ENV ANT_VERSION 1.10.7
 ENV ANT_HOME /opt/ant
 
 # Salesforce Ant migration tool
-ENV SF_ANT_VERSION 45.0
+ENV SF_ANT_VERSION 46.0
 
 # Apache Ant installation
 RUN cd /tmp \
