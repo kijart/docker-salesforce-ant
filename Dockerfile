@@ -1,4 +1,4 @@
-FROM openjdk:13-alpine
+FROM openjdk:15-alpine
 
 LABEL maintainer="Luis Miguel Vicente Fuentes <kijart@gmail.com>"
 
@@ -7,7 +7,7 @@ ENV ANT_VERSION 1.10.7
 ENV ANT_HOME /opt/ant
 
 # Salesforce Ant migration tool
-ENV SF_ANT_VERSION 47.0
+ENV SF_ANT_VERSION 48.0
 
 # Apache Ant installation
 RUN cd /tmp \
