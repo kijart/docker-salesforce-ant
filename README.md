@@ -1,3 +1,5 @@
+[![Docker Cloud Build Status](https://img.shields.io/docker/cloud/build/kijart/salesforce-ant.svg)](https://hub.docker.com/r/kijart/salesforce-ant)
+
 # Docker Salesforce Ant
 
 Run **Salesforce Ant migration tool** inside docker.
@@ -24,7 +26,7 @@ Docker documentation: https://docs.docker.com/
 
 - pull latest Salesforce Ant docker image version from docker hub: `docker pull kijart/salesforce-ant`
 
-- pull a Salesforce Ant specific version (v47.0) docker image from docker hub: `docker pull kijart/salesforce-ant:47.0`
+- pull a Salesforce Ant specific version (v48.0) docker image from docker hub: `docker pull kijart/salesforce-ant:48.0`
 
 - create a Salesforce Ant docker container
 
@@ -32,7 +34,7 @@ Docker documentation: https://docs.docker.com/
 docker create \
   --name=salesforce-ant \
   -v $(pwd)/config:/salesforce \
-  kijart/salesforce-ant:47.0
+  kijart/salesforce-ant:48.0
 ```
 
 ### build.xml and build.properties
