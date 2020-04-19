@@ -1,4 +1,4 @@
-FROM openjdk:13-alpine
+FROM openjdk:15-alpine
 
 LABEL maintainer="Luis Miguel Vicente Fuentes <kijart@gmail.com>"
 
