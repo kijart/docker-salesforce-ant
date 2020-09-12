@@ -8,9 +8,9 @@ More info in [Salesforce Ant Migration Tool](https://developer.salesforce.com/do
 
 ## Docker setup
 
-Install docker: https://docs.docker.com/engine/installation/
+Install docker: <https://docs.docker.com/engine/installation/>
 
-Docker documentation: https://docs.docker.com/
+Docker documentation: <https://docs.docker.com/>
 
 ## Usage
 
