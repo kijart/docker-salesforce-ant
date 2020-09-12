@@ -8,9 +8,9 @@ More info in [Salesforce Ant Migration Tool](https://developer.salesforce.com/do
 
 ## Docker setup
 
-Install docker: https://docs.docker.com/engine/installation/
+Install docker: <https://docs.docker.com/engine/installation/>
 
-Docker documentation: https://docs.docker.com/
+Docker documentation: <https://docs.docker.com/>
 
 ## Usage
 
@@ -24,9 +24,9 @@ Docker documentation: https://docs.docker.com/
 
 ### Docker Hub image
 
-- pull latest Salesforce Ant docker image version from docker hub: `docker pull kijart/salesforce-ant`
+- pull latest Salesforce Ant docker image version from docker hub: `docker pull kijart/salesforce-ant:latest`
 
-- pull a Salesforce Ant specific version (v48.0) docker image from docker hub: `docker pull kijart/salesforce-ant:48.0`
+- pull a Salesforce Ant specific version (v49.0) docker image from docker hub: `docker pull kijart/salesforce-ant:49.0`
 
 - create a Salesforce Ant docker container
 
@@ -34,7 +34,7 @@ Docker documentation: https://docs.docker.com/
 docker create \
   --name=salesforce-ant \
   -v $(pwd)/config:/salesforce \
-  kijart/salesforce-ant:48.0
+  kijart/salesforce-ant:49.0
 ```
 
 ### build.xml and build.properties
