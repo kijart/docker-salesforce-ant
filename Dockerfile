@@ -31,4 +31,12 @@ RUN cd /tmp \
     && rm -rf salesforce-ant-${SF_ANT_VERSION} \
     && unset SF_ANT_VERSION
 
+RUN cd /tmp \
+    && wget https://www.python.org/ftp/python/3.6.3/Python-3.6.3.tar.xz
+    && tar xJf Python-3.6.3.tar.xz
+    && cd Python-3.6.3
+    && ./configure
+    && make
+    && make install
+
 WORKDIR /salesforce
